@@ -132,7 +132,7 @@ printf '\033c'
 cd $HOME
 
 #dotfiles
-git clone https://github.com/iamvk1437k/dotfiles ~/.local/src/dotfiles
+git clone https://github.com/Normi-OS/Normi-OS-dotfiles ~/.local/src/dotfiles
 rm -vrf ~/.config ; cp -vrf ~/.local/src/dotfiles/.config/ ~/
 sudo cp -vrf ~/.local/src/dotfiles/etc/X11/xorg.conf.d/20-intel.conf /etc/X11/xorg.conf.d/20-intel.conf
 sudo cp -vrf ~/.local/src/dotfiles/etc/X11/xorg.conf.d/30-touchpad.conf /etc/X11/xorg.conf.d/30-touchpad.conf
